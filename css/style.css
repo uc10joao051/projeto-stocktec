@@ -1,0 +1,75 @@
+.header{
+    background-color: rgb(94, 58, 161);
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.navbar{
+    background-color: rgb(255, 0, 238);
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.content{
+    background-color: rgb(245, 245, 6);
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.content2{
+    background-color: rgb(219, 90, 21);
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.produto1{
+    background-color: rgb(27, 254, 6);
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.produto2{
+    background-color: rgb(139, 137, 230, 0.66);
+    width: 50%;
+    height: 868px;
+    float: left;
+}
+
+
+.footer{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.carrinho1{
+    background-color: bisque;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.btn{
+    background-color: rgb(36, 33, 223);
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+@media only screen  and (max-width:500px){
+    .header, .navbar, .content, .content2, .produto1, .produto2, .footer {
+        width: 100%;
+    }
+
+    .header img{
+        width: 50%;
+    }
+}
