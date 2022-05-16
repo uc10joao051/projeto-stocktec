@@ -1,0 +1,1 @@
+Projeto Stocktec - vídeos add
